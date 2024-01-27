@@ -1,0 +1,1632 @@
+.mediaViewInfo {
+	--web-view-name: AboutMe02;
+	--web-view-id: AboutMe02;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+}
+:root {
+	--web-view-ids: AboutMe02;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 20px;
+    }
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the parent element's text color */
+}
+.AboutMe02_Class {
+	position: absolute;
+	width: 1920px;
+	height: 2209px;
+	font-family: Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: AboutMe02;
+	--web-view-id: AboutMe02;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Menu_Class {
+	position: absolute;
+	width: 743.466px;
+	height: 51px;
+	left: 888.534px;
+	top: 78.5px;
+	overflow: visible;
+}
+.BackGround-Menu_Class {
+	position: absolute;
+	width: 720.708px;
+	height: 37.282px;
+	left: 0px;
+	top: 4.236px;
+	overflow: visible;
+}
+.Trac_116_Class {
+	fill: rgba(73,15,238,0.541);
+}
+.Trac_116 {
+	overflow: visible;
+	position: absolute;
+	width: 112.485px;
+	height: 36.211px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trac_119_Class {
+	fill: rgba(15,238,200,0.541);
+}
+.Trac_119 {
+	overflow: visible;
+	position: absolute;
+	width: 112.485px;
+	height: 36.211px;
+	left: 608.224px;
+	top: 1.071px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trac_120_Class {
+	fill: rgba(187,78,241,0.541);
+}
+.Trac_120 {
+	overflow: visible;
+	position: absolute;
+	width: 112.485px;
+	height: 36.211px;
+	left: 388.224px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trac_118_Class {
+	fill: rgba(15,238,238,0.541);
+}
+.Trac_118 {
+	overflow: visible;
+	position: absolute;
+	width: 111.859px;
+	height: 36.211px;
+	left: 187.607px;
+	top: 1.071px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Text-Menu_Class {
+	position: absolute;
+	width: 734px;
+	height: 51px;
+	left: 9.466px;
+	top: 0px;
+	overflow: visible;
+}
+.Home_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.Projects_Class {
+	left: 390px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Projects.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.About_Me_Class {
+	left: 170px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: AboutMe01.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.Contact_Me_Class {
+	left: 582px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: ContactMe.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.Logo_Class {
+	position: absolute;
+	width: 474px;
+	height: 71px;
+	left: 314px;
+	top: 64.5px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+.Logo_rectangle__Class {
+	fill: url(#Logo_rectangle_);
+}
+.Logo_rectangle_ {
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 64px;
+	left: 155px;
+	top: 7px;
+}
+.Amine__Bellachhab_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 463px;
+	white-space: nowrap;
+	line-height: 45px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Times, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	color: rgba(21,29,65,1);
+	text-transform: uppercase;
+}
+.SKILLS_Class {
+	position: absolute;
+	width: 1904px;
+	height: 1826px;
+	left: 8px;
+	top: 232px;
+	overflow: visible;
+}
+.Contactme003_Class {
+	position: absolute;
+	width: 454px;
+	height: 96px;
+	left: 410px;
+	top: 1730px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: ContactMe.html;
+	cursor: pointer;
+}
+.Trac_135_Class {
+	fill: rgba(15,38,191,0.812);
+	stroke: rgba(46,74,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_135 {
+	overflow: visible;
+	position: absolute;
+	width: 454px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Contact_me_for_more_details_Class {
+	left: 50px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 356px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.Expertise-2_Class {
+	position: absolute;
+	width: 1439px;
+	height: 716px;
+	left: 226px;
+	top: 943px;
+	overflow: visible;
+}
+.ID90_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(21,29,65,1);
+}
+.Pedagogical_Approach_Methods_T_Class {
+	left: 1px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 465px;
+	white-space: nowrap;
+	line-height: 36px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Arial, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(21,29,65,1);
+}
+.Trac_139_Class {
+	opacity: 0.18;
+	fill: rgba(0,0,0,0);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_139 {
+	overflow: visible;
+	position: absolute;
+	width: 444px;
+	height: 5px;
+	left: 1px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_19_Class {
+	fill: transparent;
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_19 {
+	overflow: visible;
+	position: absolute;
+	width: 390px;
+	height: 5px;
+	left: 1px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_297_Class {
+	position: absolute;
+	width: 444px;
+	height: 180px;
+	left: 1px;
+	top: 268px;
+	overflow: visible;
+}
+.ID62_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(21,29,65,1);
+}
+.Programming_Languages__HTML_C__Class {
+	left: 0px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 334px;
+	white-space: nowrap;
+	line-height: 36px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Arial, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(21,29,65,1);
+}
+.Trac_142_Class {
+	opacity: 0.18;
+	fill: rgba(0,0,0,0);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_142 {
+	overflow: visible;
+	position: absolute;
+	width: 444px;
+	height: 5px;
+	left: 0px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_44_Class {
+	fill: transparent;
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_44 {
+	overflow: visible;
+	position: absolute;
+	width: 266px;
+	height: 5px;
+	left: 0px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_298_Class {
+	position: absolute;
+	width: 444px;
+	height: 216px;
+	left: 498px;
+	top: 0px;
+	overflow: visible;
+}
+.Trac_140_Class {
+	opacity: 0.18;
+	fill: rgba(0,0,0,0);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_140 {
+	overflow: visible;
+	position: absolute;
+	width: 444px;
+	height: 5px;
+	left: 0px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_42_Class {
+	fill: transparent;
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_42 {
+	overflow: visible;
+	position: absolute;
+	width: 341px;
+	height: 5px;
+	left: 0px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID75_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(21,29,65,1);
+}
+.Computer-Aided_Software__GeoGe_Class {
+	left: 0px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 342px;
+	white-space: nowrap;
+	line-height: 36px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Arial, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(21,29,65,1);
+}
+.Groupe_296_Class {
+	position: absolute;
+	width: 444px;
+	height: 216px;
+	left: 498px;
+	top: 268px;
+	overflow: visible;
+}
+.Trac_143_Class {
+	opacity: 0.18;
+	fill: rgba(0,0,0,0);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_143 {
+	overflow: visible;
+	position: absolute;
+	width: 444px;
+	height: 5px;
+	left: 0px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_45_Class {
+	fill: transparent;
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_45 {
+	overflow: visible;
+	position: absolute;
+	width: 371px;
+	height: 5px;
+	left: 0px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID80_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(21,29,65,1);
+}
+.EDITING_Software__Adobe_Indesi_Class {
+	left: 0px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 243px;
+	white-space: nowrap;
+	line-height: 36px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Arial, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(21,29,65,1);
+}
+.Groupe_299_Class {
+	position: absolute;
+	width: 444px;
+	height: 216px;
+	left: 995px;
+	top: 0px;
+	overflow: visible;
+}
+.Trac_141_Class {
+	opacity: 0.18;
+	fill: rgba(0,0,0,0);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_141 {
+	overflow: visible;
+	position: absolute;
+	width: 444px;
+	height: 5px;
+	left: 0px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_43_Class {
+	fill: transparent;
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_43 {
+	overflow: visible;
+	position: absolute;
+	width: 311px;
+	height: 5px;
+	left: 0px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID70_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(21,29,65,1);
+}
+.Pedagogical_Design_Software_Ar_Class {
+	left: 0px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 379px;
+	white-space: nowrap;
+	line-height: 36px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Arial, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(21,29,65,1);
+}
+.Groupe_295_Class {
+	position: absolute;
+	width: 445px;
+	height: 216px;
+	left: 994px;
+	top: 268px;
+	overflow: visible;
+}
+.Trac_144_Class {
+	opacity: 0.18;
+	fill: rgba(0,0,0,0);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_144 {
+	overflow: visible;
+	position: absolute;
+	width: 444px;
+	height: 5px;
+	left: 1px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_46_Class {
+	fill: transparent;
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_46 {
+	overflow: visible;
+	position: absolute;
+	width: 394px;
+	height: 5px;
+	left: 1px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID90_b_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(21,29,65,1);
+}
+.Software_Proficiency_Word_Exce_Class {
+	left: 1px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 368px;
+	white-space: nowrap;
+	line-height: 36px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Arial, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(21,29,65,1);
+}
+.Groupe_300_Class {
+	position: absolute;
+	width: 445px;
+	height: 180px;
+	left: 489px;
+	top: 536px;
+	overflow: visible;
+}
+.Trac_144_b_Class {
+	opacity: 0.18;
+	fill: rgba(0,0,0,0);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_144_b {
+	overflow: visible;
+	position: absolute;
+	width: 444px;
+	height: 5px;
+	left: 1px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Ligne_46_b_Class {
+	fill: transparent;
+	stroke: rgba(15,38,191,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_46_b {
+	overflow: visible;
+	position: absolute;
+	width: 394px;
+	height: 5px;
+	left: 1px;
+	top: 86px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID90_ca_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Times, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(21,29,65,1);
+}
+.COMMUNICATION_Arabic_French_an_Class {
+	left: 1px;
+	top: 117px;
+	position: absolute;
+	overflow: visible;
+	width: 234px;
+	white-space: nowrap;
+	line-height: 36px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Arial, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	color: rgba(21,29,65,1);
+}
+.Expertise-1_Class {
+	position: absolute;
+	width: 1533px;
+	height: 689px;
+	left: 167px;
+	top: 207px;
+	overflow: visible;
+}
+.Groupe_283_Class {
+	position: absolute;
+	width: 336px;
+	height: 336px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_30_Class {
+	fill: rgba(255,255,255,1);
+}
+.Ellipse_30 {
+	filter: drop-shadow(0px 15px 20px rgba(21, 29, 65, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	height: 396px;
+	left: 0px;
+	top: 0px;
+}
+.Soustraction_5_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Soustraction_5 {
+	overflow: visible;
+	position: absolute;
+	width: 262.237px;
+	height: 261.001px;
+	left: 32.764px;
+	top: 39px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_81_Class {
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 40px;
+	top: 45.513px;
+	overflow: visible;
+}
+.Trac_65_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_65 {
+	overflow: visible;
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID90_ci_Class {
+	left: 97px;
+	top: 105px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: TackODing Dingbat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 69px;
+	color: rgba(15,38,191,1);
+}
+.Pedagogical_Class {
+	left: 71px;
+	top: 199px;
+	position: absolute;
+	overflow: visible;
+	width: 185px;
+	white-space: nowrap;
+	line-height: 72px;
+	margin-top: -23.5px;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(15,38,191,1);
+	text-transform: uppercase;
+}
+.Groupe_286_Class {
+	position: absolute;
+	width: 336px;
+	height: 336px;
+	left: 399px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_38_Class {
+	fill: rgba(255,255,255,1);
+}
+.Ellipse_38 {
+	filter: drop-shadow(0px 15px 20px rgba(21, 29, 65, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	height: 396px;
+	left: 0px;
+	top: 0px;
+}
+.Soustraction_13_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Soustraction_13 {
+	overflow: visible;
+	position: absolute;
+	width: 262.237px;
+	height: 261.001px;
+	left: 32.764px;
+	top: 39px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_282_Class {
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 40px;
+	top: 45.513px;
+	overflow: visible;
+}
+.Trac_65_co_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_65_co {
+	overflow: visible;
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Computer-Aided_software_Class {
+	left: 68px;
+	top: 207px;
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(15,38,191,1);
+	text-transform: uppercase;
+}
+.ID75_cq_Class {
+	left: 106px;
+	top: 105px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: TackODing Dingbat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 69px;
+	color: rgba(15,38,191,1);
+}
+.Groupe_291_Class {
+	position: absolute;
+	width: 336px;
+	height: 336px;
+	left: 209px;
+	top: 353px;
+	overflow: visible;
+}
+.Ellipse_38_cs_Class {
+	fill: rgba(255,255,255,1);
+}
+.Ellipse_38_cs {
+	filter: drop-shadow(0px 15px 20px rgba(21, 29, 65, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	height: 396px;
+	left: 0px;
+	top: 0px;
+}
+.Soustraction_13_ct_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Soustraction_13_ct {
+	overflow: visible;
+	position: absolute;
+	width: 262.237px;
+	height: 261.001px;
+	left: 32.764px;
+	top: 39px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_282_cu_Class {
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 40px;
+	top: 45.513px;
+	overflow: visible;
+}
+.Trac_65_cv_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_65_cv {
+	overflow: visible;
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID80_cw_Class {
+	left: 106px;
+	top: 105px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: TackODing Dingbat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 69px;
+	color: rgba(15,38,191,1);
+}
+.EDITING__Software__Class {
+	left: 105px;
+	top: 204px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(15,38,191,1);
+	text-transform: uppercase;
+}
+.Groupe_290_Class {
+	position: absolute;
+	width: 336px;
+	height: 336px;
+	left: 798px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_39_Class {
+	fill: rgba(255,255,255,1);
+}
+.Ellipse_39 {
+	filter: drop-shadow(0px 15px 20px rgba(21, 29, 65, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	height: 396px;
+	left: 0px;
+	top: 0px;
+}
+.Soustraction_15_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Soustraction_15 {
+	overflow: visible;
+	position: absolute;
+	width: 258.574px;
+	height: 261.001px;
+	left: 36.427px;
+	top: 39px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_285_Class {
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 40px;
+	top: 45.513px;
+	overflow: visible;
+}
+.Trac_65_c_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_65_c {
+	overflow: visible;
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID70_c_Class {
+	left: 106px;
+	top: 105px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: TackODing Dingbat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 69px;
+	color: rgba(15,38,191,1);
+}
+.Pedagogical__Design__Software_Class {
+	left: 90px;
+	top: 200px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(15,38,191,1);
+	text-transform: uppercase;
+}
+.Groupe_292_Class {
+	position: absolute;
+	width: 336px;
+	height: 336px;
+	left: 603px;
+	top: 353px;
+	overflow: visible;
+}
+.Ellipse_39_c_Class {
+	fill: rgba(255,255,255,1);
+}
+.Ellipse_39_c {
+	filter: drop-shadow(0px 15px 20px rgba(21, 29, 65, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	height: 396px;
+	left: 0px;
+	top: 0px;
+}
+.Soustraction_15_c_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Soustraction_15_c {
+	overflow: visible;
+	position: absolute;
+	width: 262.237px;
+	height: 261.001px;
+	left: 32.764px;
+	top: 39px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_285_c_Class {
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 40px;
+	top: 45.513px;
+	overflow: visible;
+}
+.Trac_65_da_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_65_da {
+	overflow: visible;
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID90_da_Class {
+	left: 106px;
+	top: 105px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: TackODing Dingbat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 69px;
+	color: rgba(15,38,191,1);
+}
+.Software__Proficiency_Class {
+	left: 93px;
+	top: 200px;
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(15,38,191,1);
+	text-transform: uppercase;
+}
+.Groupe_293_Class {
+	position: absolute;
+	width: 336px;
+	height: 336px;
+	left: 1012px;
+	top: 353px;
+	overflow: visible;
+}
+.Ellipse_39_dd_Class {
+	fill: rgba(255,255,255,1);
+}
+.Ellipse_39_dd {
+	filter: drop-shadow(0px 15px 20px rgba(21, 29, 65, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	height: 396px;
+	left: 0px;
+	top: 0px;
+}
+.Soustraction_15_de_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Soustraction_15_de {
+	overflow: visible;
+	position: absolute;
+	width: 262.237px;
+	height: 261.001px;
+	left: 32.764px;
+	top: 39px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_285_df_Class {
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 40px;
+	top: 45.513px;
+	overflow: visible;
+}
+.Trac_65_dg_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_65_dg {
+	overflow: visible;
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID90_dh_Class {
+	left: 106px;
+	top: 105px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: TackODing Dingbat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 69px;
+	color: rgba(15,38,191,1);
+}
+.Communication_Class {
+	left: 72px;
+	top: 200px;
+	position: absolute;
+	overflow: visible;
+	width: 185px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(15,38,191,1);
+	text-transform: uppercase;
+}
+.Groupe_289_Class {
+	position: absolute;
+	width: 336px;
+	height: 336px;
+	left: 1197px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_40_Class {
+	fill: rgba(255,255,255,1);
+}
+.Ellipse_40 {
+	filter: drop-shadow(0px 15px 20px rgba(21, 29, 65, 0.059));
+	position: absolute;
+	overflow: visible;
+	width: 396px;
+	height: 396px;
+	left: 0px;
+	top: 0px;
+}
+.Soustraction_17_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Soustraction_17 {
+	overflow: visible;
+	position: absolute;
+	width: 230.82px;
+	height: 261.001px;
+	left: 64.18px;
+	top: 39px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Groupe_288_Class {
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 40px;
+	top: 45.513px;
+	overflow: visible;
+}
+.Trac_65_dn_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(15,38,191,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_65_dn {
+	overflow: visible;
+	position: absolute;
+	width: 246.061px;
+	height: 246.061px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID62_do_Class {
+	left: 106px;
+	top: 105px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: TackODing Dingbat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 69px;
+	color: rgba(15,38,191,1);
+}
+.Programming__Languages__Class {
+	left: 83px;
+	top: 200px;
+	position: absolute;
+	overflow: visible;
+	width: 163px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(15,38,191,1);
+	text-transform: uppercase;
+}
+.My_Expertise_Class {
+	left: 325px;
+	top: 72px;
+	position: absolute;
+	overflow: visible;
+	width: 279px;
+	white-space: nowrap;
+	line-height: 74px;
+	margin-top: -14.5px;
+	text-align: left;
+	font-family: Arial, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(16,55,230,1);
+	text-decoration: underline;
+}
+.BackGround-SKILLS_Class {
+	opacity: 0.23;
+	mix-blend-mode: multiply;
+	position: absolute;
+	width: 1904px;
+	height: 1668px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Groupe_375_Class {
+	position: absolute;
+	width: 1904px;
+	height: 1668px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Welcome-Menu2_Class {
+	position: absolute;
+	width: 405px;
+	height: 96px;
+	left: 1007px;
+	top: 1962px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: certifications.html;
+	cursor: pointer;
+}
+.Rectangle_50_Class {
+	fill: transparent;
+	stroke: rgba(15,38,191,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_50 {
+	position: absolute;
+	overflow: visible;
+	width: 405px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+}
+.Groupe_487_Class {
+	position: absolute;
+	width: 383px;
+	height: 87px;
+	left: 11px;
+	top: 5px;
+	overflow: visible;
+}
+.Discover_my_Class {
+	left: 98px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.Certifications__Diplomas_Class {
+	left: 0px;
+	top: 50px;
+	position: absolute;
+	overflow: visible;
+	width: 384px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.wwwaminebellachhabma__All_Righ_Class {
+	left: 565px;
+	top: 2156px;
+	position: absolute;
+	overflow: visible;
+	width: 793px;
+	height: 25px;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	line-height: 35px;
+	margin-top: -7.5px;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(15,38,191,1);
+}
+.Ligne_72_Class {
+	fill: transparent;
+	stroke: rgba(22,42,194,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_72 {
+	overflow: visible;
+	position: absolute;
+	width: 1640px;
+	height: 2px;
+	left: 141px;
+	top: 2124px;
+	transform: matrix(1,0,0,1,0,0);
+}

@@ -1,0 +1,469 @@
+.mediaViewInfo {
+	--web-view-name: Certifications;
+	--web-view-id: Certifications;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+}
+:root {
+	--web-view-ids: Certifications;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        font-size: 20px;
+    }
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the parent element's text color */
+}
+.Certifications_Class {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	font-family: Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Certifications;
+	--web-view-id: Certifications;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.About-me-img-01_Class {
+	mix-blend-mode: multiply;
+	position: absolute;
+	width: 224.856px;
+	height: 242.73px;
+	left: 338.413px;
+	top: 278.38px;
+	overflow: visible;
+}
+.Soustraction_20_w_Class {
+	fill: url(#Soustraction_20_w);
+}
+.Soustraction_20_w {
+	overflow: visible;
+	position: absolute;
+	width: 274.229px;
+	height: 282.911px;
+	left: 310px;
+	top: 244px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Myprojects_Class {
+	position: absolute;
+	width: 405px;
+	height: 96px;
+	left: 1077px;
+	top: 834px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Projects.html;
+	cursor: pointer;
+}
+.Rectangle_50_Class {
+	fill: transparent;
+	stroke: rgba(15,38,191,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_50 {
+	position: absolute;
+	overflow: visible;
+	width: 405px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+}
+.Discover_my_Projects_Class {
+	left: 44px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.Contactme_Class {
+	position: absolute;
+	width: 552.493px;
+	height: 96px;
+	left: 439px;
+	top: 834px;
+	overflow: visible;
+}
+.Trac_243_Class {
+	fill: rgba(15,38,191,0.812);
+	stroke: rgba(46,74,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Trac_243 {
+	overflow: visible;
+	position: absolute;
+	width: 552.493px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: ContactMe.html;
+	cursor: pointer;
+}
+.Contact_me_to_know_Class {
+	left: 147px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 259px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: ContactMe.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.more_about_my_Certifications___Class {
+	left: 22px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 509px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: ContactMe.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.Certifications__Diplomas_Class {
+	left: 116px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: ContactMe.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+.Menu_Class {
+	position: absolute;
+	width: 743.466px;
+	height: 51px;
+	left: 888.534px;
+	top: 78.5px;
+	overflow: visible;
+}
+.BackGround-Menu_Class {
+	position: absolute;
+	width: 720.708px;
+	height: 37.282px;
+	left: 0px;
+	top: 4.236px;
+	overflow: visible;
+}
+.Trac_116_Class {
+	fill: rgba(73,15,238,0.541);
+}
+.Trac_116 {
+	overflow: visible;
+	position: absolute;
+	width: 112.485px;
+	height: 36.211px;
+	left: -0.001px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trac_119_Class {
+	fill: rgba(15,238,200,0.541);
+}
+.Trac_119 {
+	overflow: visible;
+	position: absolute;
+	width: 112.484px;
+	height: 36.211px;
+	left: 608.224px;
+	top: 1.07px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trac_120_Class {
+	fill: rgba(187,78,241,0.541);
+}
+.Trac_120 {
+	overflow: visible;
+	position: absolute;
+	width: 112.484px;
+	height: 36.211px;
+	left: 388.224px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Trac_118_Class {
+	fill: rgba(15,238,238,0.541);
+}
+.Trac_118 {
+	overflow: visible;
+	position: absolute;
+	width: 111.859px;
+	height: 36.211px;
+	left: 187.606px;
+	top: 1.07px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Text-Menu_Class {
+	position: absolute;
+	width: 734px;
+	height: 51px;
+	left: 9.466px;
+	top: 0px;
+	overflow: visible;
+}
+.Home_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.Projects_Class {
+	left: 390px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Projects.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.About_Me_Class {
+	left: 170px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: AboutMe01.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.Contact_Me_Class {
+	left: 582px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: ContactMe.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(21,29,65,1);
+}
+.Logo_Class {
+	position: absolute;
+	width: 474px;
+	height: 71px;
+	left: 314px;
+	top: 64.5px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+.Logo_rectangle_bi_Class {
+	fill: url(#Logo_rectangle_bi);
+}
+.Logo_rectangle_bi {
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	height: 64px;
+	left: 155px;
+	top: 7px;
+}
+.Amine__Bellachhab_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 463px;
+	white-space: nowrap;
+	line-height: 45px;
+	margin-top: -1.5px;
+	text-align: left;
+	font-family: Times, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	color: rgba(21,29,65,1);
+	text-transform: uppercase;
+}
+.wwwaminebellachhabma__All_Righ_Class {
+	left: 564px;
+	top: 1034px;
+	position: absolute;
+	overflow: visible;
+	width: 793px;
+	height: 25px;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	line-height: 35px;
+	margin-top: -7.5px;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(15,38,191,1);
+}
+.Ligne_70_Class {
+	fill: transparent;
+	stroke: rgba(22,42,194,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ligne_70 {
+	overflow: visible;
+	position: absolute;
+	width: 1640px;
+	height: 2px;
+	left: 140px;
+	top: 1002px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Some_certifications_I_had_got__Class {
+	left: 482px;
+	top: 189px;
+	position: absolute;
+	overflow: visible;
+	width: 957px;
+	height: 103px;
+	line-height: 67px;
+	margin-top: -11px;
+	text-align: center;
+	font-family: Arial, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(99,90,224,1);
+}
+.Rectangle_171_Class {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 1640px;
+	height: 478px;
+	left: 140px;
+	top: 244px;
+	overflow: visible;
+}
