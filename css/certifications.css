@@ -100,7 +100,7 @@ a {
 	overflow: visible;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: Projects.html;
+	--web-action-target: ./Projects;
 	cursor: pointer;
 }
 .Rectangle_50_Class {
@@ -161,7 +161,7 @@ a {
 	transform: matrix(1,0,0,1,0,0);
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: ContactMe.html;
+	--web-action-target: ./ContactMe;
 	cursor: pointer;
 }
 .Contact_me_to_know_Class {
@@ -173,7 +173,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: ContactMe.html;
+	--web-action-target: ./ContactMe;
 	cursor: pointer;
 	text-align: center;
 	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -191,7 +191,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: ContactMe.html;
+	--web-action-target: ./ContactMe;
 	cursor: pointer;
 	text-align: center;
 	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -209,7 +209,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: ContactMe.html;
+	--web-action-target: ./ContactMe;
 	cursor: pointer;
 	text-align: center;
 	font-family: Montserrat, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -299,7 +299,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: index.html;
+	--web-action-target: ./;
 	cursor: pointer;
 	text-align: left;
 	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -317,7 +317,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: Projects.html;
+	--web-action-target: ./Projects;
 	cursor: pointer;
 	text-align: left;
 	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -335,7 +335,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: AboutMe01.html;
+	--web-action-target: ./AboutMe01;
 	cursor: pointer;
 	text-align: left;
 	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -353,7 +353,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: ContactMe.html;
+	--web-action-target: ./ContactMe;
 	cursor: pointer;
 	text-align: left;
 	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -371,7 +371,7 @@ a {
 	overflow: visible;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: index.html;
+	--web-action-target: ./;
 	cursor: pointer;
 }
 .Logo_rectangle_bi_Class {
@@ -411,7 +411,7 @@ a {
 	height: 25px;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: index.html;
+	--web-action-target: ./;
 	cursor: pointer;
 	line-height: 35px;
 	margin-top: -7.5px;
