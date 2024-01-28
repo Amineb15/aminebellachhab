@@ -167,7 +167,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: index.html;
+	--web-action-target: ./;
 	cursor: pointer;
 	text-align: left;
 	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -199,7 +199,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: AboutMe01.html;
+	--web-action-target: ./AboutMe01;
 	cursor: pointer;
 	text-align: left;
 	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -217,7 +217,7 @@ a {
 	white-space: nowrap;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: ContactMe.html;
+	--web-action-target: ./ContactMe;
 	cursor: pointer;
 	text-align: left;
 	font-family: Adobe Caslon Pro, Arial, Helvetica, Times, Courier New, Verdana, Baskerville, Calibri, Cambria, Garamond, Perpetua,  Century Gothic, Georgia, Gill Sans, Impact, Tahoma, Palatino, Trebuchet MS,  Bookman, Luminari, Bradley Hand,;
@@ -235,7 +235,7 @@ a {
 	overflow: visible;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: index.html;
+	--web-action-target: ./;
 	cursor: pointer;
 }
 .Logo_rectangle__Class {
@@ -615,7 +615,7 @@ a {
 	overflow: visible;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: ContactMe.html;
+	--web-action-target: ./ContactMe;
 	cursor: pointer;
 }
 .Rectangle_34_Class {
@@ -652,7 +652,7 @@ a {
 	height: 25px;
 	--web-animation: fadein 0.30000001192092896s ease-out;
 	--web-action-type: page;
-	--web-action-target: index.html;
+	--web-action-target: ./;
 	cursor: pointer;
 	line-height: 35px;
 	margin-top: -7.5px;
