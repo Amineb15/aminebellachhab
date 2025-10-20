@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📘 Visualisation du PDF - Élève 3Apic S1 | Amine Bellachhab</title>
+    <!-- Police Google Fonts : Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* Reset et styles de base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa; /* Gris clair */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #007bff; /* Bleu */
+            margin-bottom: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #0056b3;
+        }
+        /* Conteneur PDF */
+        .pdf-container {
+            width: 100%;
+            max-width: 800px;
+            background-color: #fff; /* Blanc */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 30px;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        /* Loader optionnel */
+        .loader {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            transition: opacity 0.3s ease;
+        }
+        .loader.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        .progress-bar {
+            width: 80%;
+            height: 4px;
+            background-color: #ddd;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            width: 0;
+            height: 100%;
+            background-color: #007bff;
+            transition: width 0.5s ease-in-out;
+        }
+        /* Section stats */
+        .stats-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .counters {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .counter {
+            font-size: 1.2rem;
+            color: #007bff;
+            text-align: center;
+            transition: transform 0.3s ease; /* Animation légère */
+        }
+        .counter.animate {
+            transform: scale(1.1);
+        }
+        /* Bouton téléchargement */
+        .download-btn {
+            display: flex;
+            align-items: center;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.3s ease; /* Effet hover */
+            cursor: pointer;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+        .download-btn::before {
+            content: '⬇️';
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            iframe {
+                height: 400px;
+            }
+            .counters {
+                flex-direction: column;
+            }
+            .counter {
+                margin-bottom: 10px;
+            }
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AMINE BELLACHHAB | Officiel Web Site</h1>
+        <nav>
+            <a href="https://aminebellachhab.ma/">Accueil</a>
+            <a href="https://aminebellachhab.ma/AboutMe01">More about me</a>
+            <a href="https://aminebellachhab.ma/ContactMe">Contact me</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>📘 Visualisation du PDF - Élève 3Apic S1</h2>
+        
+        <!-- Conteneur PDF avec loader -->
+        <div class="pdf-container">
+            <div class="loader" id="loader">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+            <iframe id="pdf-viewer" src="Elève - 3Apic - S1.pdf" title="Visualisation PDF"></iframe>
+        </div>
+        
+        <!-- Section stats et bouton -->
+        <div class="stats-section">
+            <div class="counters">
+                <div class="counter" id="view-counter">👁️ Visites : 0</div>
+                <div class="counter" id="download-counter">⬇️ Téléchargements : 0</div>
+            </div>
+            <a id="download-btn" class="download-btn">Télécharger le PDF</a>
+        </div>
+    </main>
+
+    <script>
+        // Fonction pour animer le compteur
+        function animateCounter(element) {
+            element.classList.add('animate');
+            setTimeout(() => {
+                element.classList.remove('animate');
+            }, 300);
+        }
+
+        // Initialisation et mise à jour des compteurs avec localStorage
+        let views = parseInt(localStorage.getItem('pdf_views'));
+        if (isNaN(views)) {
+            views = Math.floor(Math.random() * (760 - 70 + 1)) + 70;
+        } else {
+            let increment = Math.floor(Math.random() * 20) + 1;
+            views += increment;
+        }
+        localStorage.setItem('pdf_views', views);
+
+        let downloads = parseInt(localStorage.getItem('pdf_downloads'));
+        if (isNaN(downloads)) {
+            downloads = Math.floor(Math.random() * (760 - 70 + 1)) + 70;
+        } else {
+            let increment = Math.floor(Math.random() * 20) + 1;
+            downloads += increment;
+        }
+        localStorage.setItem('pdf_downloads', downloads);
+
+        // Mettre à jour les affichages
+        const viewCounter = document.getElementById('view-counter');
+        viewCounter.textContent = `👁️ Visites : ${views}`;
+        animateCounter(viewCounter);
+
+        const downloadCounter = document.getElementById('download-counter');
+        downloadCounter.textContent = `⬇️ Téléchargements : ${downloads}`;
+        animateCounter(downloadCounter);
+
+        // Gestion du bouton de téléchargement
+        const downloadBtn = document.getElementById('download-btn');
+        downloadBtn.addEventListener('click', (e) => {
+            e.preventDefault(); // Empêcher le comportement par défaut
+            downloads = parseInt(localStorage.getItem('pdf_downloads'));
+            downloads += 1; // Incrément simple sur clic
+            localStorage.setItem('pdf_downloads', downloads);
+            downloadCounter.textContent = `⬇️ Téléchargements : ${downloads}`;
+            animateCounter(downloadCounter);
+            // Déclencher le téléchargement
+            const link = document.createElement('a');
+            link.href = 'Elève - 3Apic - S1.pdf';
+            link.download = 'Elève - 3Apic - S1.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+
+        // Barre de progression optionnelle pour le chargement du PDF
+        const loader = document.getElementById('loader');
+        const progressFill = document.getElementById('progress-fill');
+        const pdfViewer = document.getElementById('pdf-viewer');
+
+        // Simulation de progression (car iframe n'a pas d'événement progress natif)
+        let progress = 0;
+        const interval = setInterval(() => {
+            progress += 10;
+            progressFill.style.width = `${progress}%`;
+            if (progress >= 100) {
+                clearInterval(interval);
+                setTimeout(() => {
+                    loader.classList.add('hidden');
+                }, 500); // Délai pour une transition douce
+            }
+        }, 200); // Ajuster pour simuler le chargement
+
+        // Cacher le loader une fois l'iframe chargée
+        pdfViewer.addEventListener('load', () => {
+            clearInterval(interval);
+            progressFill.style.width = '100%';
+            setTimeout(() => {
+                loader.classList.add('hidden');
+            }, 300);
+        });
+    </script>
+</body>
+</html>
