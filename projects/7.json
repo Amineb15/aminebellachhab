@@ -1,0 +1,23 @@
+{
+  "title": "Collection Rachad M@ths - Manuel de l'Élève",
+  "thumbnail": "Projets/Cover_manuel_1.png",
+  "image": "Projets/Cover_manuel_1.png",
+  "description": "La Collection Rachad M@ths est un manuel de l'élève conçu pour les élèves de 1ère Année Collégiale (1APIC) dans le cadre du cycle secondaire collégial au Maroc. Développé en conformité avec le Programme Scolaire Marocain et approuvé par le Ministère de l'Éducation Nationale, de la Formation Professionnelle et de la Recherche Scientifique, ce manuel offre un support éducatif complet et innovant. Avec une mise en page moderne et des illustrations dynamiques, il vise à rendre l'apprentissage des mathématiques accessible, engageant et efficace pour les élèves, tout en intégrant des ressources numériques pour un enseignement connecté.",
+  "objectifs": [
+    "Renforcer les bases mathématiques : Maîtriser les notions d'algèbre (équations linéaires, factorisation, identité remarquable), géométrie (volumes, aires) et statistiques (histogrammes, diagrammes).",
+    "Développer les compétences analytiques : Encourager le raisonnement logique à travers des exercices progressifs et des exemples concrets.",
+    "Préparer aux évaluations : Offrir des outils adaptés aux exigences du programme officiel, incluant des corrigés et des applications pratiques.",
+    "Promouvoir l'apprentissage numérique : Intégrer des ressources en ligne pour un enseignement interactif et adapté à l'ère digitale."
+  ], 
+  "auteurs": [
+    "Amine BELLACHHAB, Professeur de mathématiques",
+    "Autres, Professeurs et inspecteur de mathématiques"
+  ],
+  "collection": [
+   "Manuel de l'Élève - 1ère année ",
+   "Manuel de l'Élève - 2ème année ",
+   "Manuel de l'Élève - 3ème année"
+  ],
+  "edition": "Édition 2021",
+  "link": "http://www.darerrachad.com/"
+}

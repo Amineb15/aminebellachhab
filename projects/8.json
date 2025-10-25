@@ -1,0 +1,23 @@
+{
+  "title": "Collection Rachad M@ths - Manuel de l'Élève",
+  "thumbnail": "Projets/Cover_manuel_2.png",
+  "image": "Projets/Cover_manuel_2.png",
+  "description": "La Collection Rachad Math@ths est un manuel scolaire destiné aux élèves de deuxième année du cycle secondaire collégial au Maroc. Conformément au curriculum national, il a été élaboré dans le respect des directives officielles et bénéficie de l'approbation du Ministère de l'Éducation Nationale, de la Formation Professionnelle et de la Recherche Scientifique. Cet ouvrage allie une structure pédagogique rigoureuse à une mise en page moderne et dynamique, dans l'objectif de rendre l'apprentissage des mathématiques à la fois accessible et stimulant. Il intègre également des ressources numériques complémentaires pour enrichir l'expérience éducative et s'inscrire dans une démarche d'enseignement connecté.",
+  "objectifs": [
+    "Consolider et approfondir les savoirs fondamentaux en assurant une maîtrise robuste des concepts clés du programme : algèbre (équations du premier degré, factorisation, identités remarquables), géométrie (calcul d'aires et de volumes) et statistiques (représentations graphiques : histogrammes, diagrammes).",
+    "Développer les capacités d'analyse et de raisonnement en cultivant une réflexion structurée et logique grâce à des activités variées, allant d'applications directes à des situations-problèmes complexes.",
+    "Assurer une préparation efficace aux évaluations en mettant à disposition des élèves des exercices types, des sujets de révision conformes au programme officiel et des corrigés détaillés pour favoriser l'auto-évaluation et la progression.",
+    "Intégrer les compétences du 21e siècle en promouvant l'utilisation autonome des outils numériques through des ressources en ligne interactives, préparant ainsi les élèves aux exigences d'un monde connecté."
+  ], 
+  "auteurs": [
+    "Amine BELLACHHAB, Professeur de mathématiques",
+    "Autres, Professeurs et inspecteur de mathématiques"
+  ],
+  "collection": [
+   "Manuel de l'Élève - 1ère année ",
+   "Manuel de l'Élève - 2ème année ",
+   "Manuel de l'Élève - 3ème année"
+  ],
+  "edition": "Édition 2021",
+  "link": "http://www.darerrachad.com/"
+}

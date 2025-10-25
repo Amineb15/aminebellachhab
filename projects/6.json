@@ -1,0 +1,25 @@
+{
+  "title": "Fiches de Préparations 3ème A.P.I.C.",
+  "thumbnail": "Projets/Cover_Fiches.png",
+  "image": "Projets/Cover_Fiches.png",
+  "description": "Ce projet consiste en un ensemble de fiches de préparations pédagogiques complètes destinées aux élèves de 3ème A.P.I.C. (Année parcours international commun), dans le cadre du programme de Mathématiques. Élaborées conformément aux directives du Ministère de l'Éducation Nationale du Royaume du Maroc, ces fiches offrent un support didactique structuré et visuellement attractif pour une préparation efficace aux examens régionaux et nationaux. Elles intègrent des exercices variés, des schémas clairs et des représentations graphiques pour favoriser une assimilation progressive des concepts mathématiques essentiels.",
+  "objectifs": [
+    "Maîtriser les compétences fondamentales en géométrie (figures planes, triangles, quadrilatères, aires et périmètres), algèbre (équations, fonctions linéaires) et analyse (graphiques de fonctions, variations).",
+    "Développer l'esprit logique et analytique des élèves à travers des exercices gradués, du raisonnement déductif et des applications concrètes.",
+    "Préparer aux évaluations officielles en reproduisant le format des examens (QCM, démonstrations, calculs numériques).",
+    "Favoriser l'autonomie en proposant des résolutions guidées et des corrigés détaillés pour un apprentissage actif et personnalisé."
+  ], 
+  "auteurs": [
+    "Amine BELLACHHAB, Professeur de mathématiques",
+    "Samia KHALDANI, Professeure de mathématiques",
+    "Hatim Kchirid, Professeur de mathématiques"
+  ],
+  "collection": [
+   "Aide-élève – Annale du Brevet",
+   "Fiches de préparation - 3e année du collège",
+   "Boussole des Maths au Collège – 3ᵉ année",
+   "Annale du Brevet de Mathématiques"
+  ],
+  "edition": "Édition 2015",
+  "link": "#projets"
+}
