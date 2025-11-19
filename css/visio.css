@@ -119,6 +119,15 @@
   font-size: 1.2rem;
 }
 
+/* Actions: grouper les boutons */
+.actions { display: flex; gap: 12px; justify-content: center; }
+
+/* Icône différente pour le lien alternatif */
+.alt-link-btn::before { content: '➡️'; }
+
+.variant-section { display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 800px; background-color: #fff; border-radius: 10px; box-shadow: var(--shadow); padding: var(--space-lg); margin: var(--space-md) auto 0; }
+.variant-actions { display: flex; gap: 12px; justify-content: center; }
+
 /* Responsive */
 @media (max-width: 768px) {
   .pdf-iframe {
