@@ -1,0 +1,140 @@
+/* Styles spécifiques pour la page de visualisation PDF */
+
+/* Titre de section */
+.visio-title {
+  color: var(--primary-color);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+  padding-top: 2rem;
+}
+
+/* Conteneur PDF */
+.pdf-container {
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto var(--space-xl);
+}
+
+.pdf-iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+}
+
+/* Loader */
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: opacity 0.3s ease;
+}
+
+.loader.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 4px;
+  background-color: #ddd;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  width: 0;
+  height: 100%;
+  background-color: var(--primary-color);
+  transition: width 0.5s ease-in-out;
+}
+
+/* Section des statistiques */
+.stats-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: var(--space-lg);
+  margin: 0 auto;
+}
+
+.counters {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: var(--space-md);
+}
+
+.counter {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.counter.animate {
+  transform: scale(1.1);
+}
+
+/* Bouton de téléchargement */
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.download-btn::before {
+  content: '⬇️';
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Actions: grouper les boutons */
+.actions { display: flex; gap: 12px; justify-content: center; }
+
+/* Icône différente pour le lien alternatif */
+.alt-link-btn::before { content: '➡️'; }
+
+.variant-section { display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 800px; background-color: #fff; border-radius: 10px; box-shadow: var(--shadow); padding: var(--space-lg); margin: var(--space-md) auto 0; }
+.variant-actions { display: flex; gap: 12px; justify-content: center; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pdf-iframe {
+    height: 400px;
+  }
+  .counters {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+}
