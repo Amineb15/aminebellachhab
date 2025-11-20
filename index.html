@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AMINE BELLACHHAB - Site personnel avec ressources pédagogiques, projets et contact">
+    <meta property="og:title" content="AMINE BELLACHHAB enseignant de Mathématiques - Site Personnel">
+    <meta property="og:description" content="Découvrez mes ressources pédagogiques, projets et méthodes d'enseignement des mathématiques">
+    <meta property="og:type" content="website">
+    <title>AMINE BELLACHHAB - Site Personnel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/image-zoom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header avec navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#accueil" class="logo">A<span>.</span> BELLACHHAB</a>
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Basculer le mode sombre/clair">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu de navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section d'accueil -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">AMINE <span class="highlight">BELLACHHAB</span></h1>
+                <p class="hero-subtitle">Enseignant de Mathématiques, Concepteur Pédagogique, Innovateur en Didactique, Passionné par l'enseignement et la transmission des savoirs mathématiques</p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="math-shapes">
+                    <div class="shape shape-1" data-type="function">
+                        <div class="graph"></div>
+                        <div class="equation">f(x) = x²</div>
+                    </div>
+                    <div class="shape shape-2" data-type="geometry">
+                        <div class="polygon"></div>
+                        <div class="equation">A = πr²</div>
+                    </div>
+                    <div class="shape shape-3" data-type="calculus">
+                        <div class="integral"></div>
+                        <div class="equation">∫ f(x) dx</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <!-- Bloc texte À propos : le JS masque les paragraphes après le premier, place un lien “Lire plus” ici, et conserve les statistiques visibles. -->
+                <div class="about-text" id="aboutText">
+                    <p style="text-align: justify; text-indent: 20px;" >
+                           Enseignant de mathématiques passionné, fort de plus de dix ans d'expérience enrichissante dans le domaine de l'éducation et profondément engagé dans sa mission. 
+                        Dynamique, motivé et enthousiaste, j'explore diverses approches pédagogiques et méthodes didactiques adaptées à l'enseignement des mathématiques au secondaire, 
+                        tout en tenant compte de la diversité des élèves.
+                        Je possède une excellente capacité à créer un environnement d'apprentissage stimulant et engageant, 
+                        fondé sur la compréhension des apprenants et des processus d'apprentissage. 
+                        Mes compétences avancées en communication, ma maîtrise des outils numériques et des logiciels d'enseignement assisté par ordinateur, 
+                        ainsi que ma capacité éprouvée à inspirer et motiver les élèves, me permettent de les encourager à exceller dans le domaine des sciences mathématiques.
+                    </p>
+                    <p style="text-align: justify; text-indent: 20px;" >
+                           Fort d'une solide formation en mathématiques et de plus d'une décennie d'expérience enrichissante dans l'enseignement, 
+                        je suis convaincu de posséder les compétences et l'expertise nécessaires pour contribuer de manière significative à la réussite académique de mes élèves.<br>
+                        Je crois fermement que chaque élève peut réussir en mathématiques avec la bonne approche pédagogique et un accompagnement adapté.
+                    </p>
+                    <p style="text-align: justify; text-indent: 20px;" >
+                           Tout au long de ma carrière, j'ai développé une compréhension approfondie des mathématiques et une véritable passion pour
+                         l'accompagnement des apprenants vers la réalisation de leur plein potentiel. 
+                         Je m'engage à créer un environnement d'apprentissage dynamique et stimulant, favorisant la pensée critique,
+                          la résolution de problèmes et le goût des mathématiques. Ma pédagogie, centrée sur l'élève, 
+                          repose sur une différenciation et une personnalisation de l'enseignement afin de répondre aux besoins spécifiques de chacun.
+                    </p>
+                    <p style="text-align: justify; text-indent: 20px;" >
+                        Dans mes fonctions actuelles d'enseignant de mathématiques, 
+                        j'ai mis en œuvre avec succès des pratiques pédagogiques innovantes, 
+                        entraînant une nette amélioration des performances et de l'engagement des élèves. 
+                        Convaincu de l'importance des technologies éducatives, j'intègre régulièrement les outils numériques dans mes cours 
+                        afin d'enrichir les apprentissages et de renforcer l'interactivité.
+                    </p>
+                    <p style="text-align: justify; text-indent: 20px;" >
+                        Au-delà de mes compétences pédagogiques, 
+                        je maîtrise un large éventail de technologies éducatives avancées. 
+                        Je suis expérimenté dans l'utilisation de logiciels d'enseignement assisté par ordinateur 
+                        tels que <b>GeoGebra</b>, <b>Cabri 2D & 3D</b>, <b>MathType</b>, <b>LaTeX</b> et <b>Matlab</b>, que j'utilise pour concevoir des cours interactifs et stimulants. 
+                        J'ai également une expertise avérée dans les outils de conception pédagogique tels que <b>Articulate 360 (Rise)</b>, <b>Microsoft Sway</b>, <b>Camtasia</b> et <b>Moodle</b>.
+                    </p>  
+                    <p style="text-align: justify; text-indent: 20px;" >
+                        Ma maîtrise de plusieurs langages de programmation <b>(HTML, C, C++, Java)</b> renforce la dimension computationnelle de 
+                        mes cours et développe la pensée algorithmique chez mes élèves. Par ailleurs, mes compétences en logiciels de création 
+                        graphique tels que <b>Adobe InDesign</b>, <b>Illustrator</b>, <b>XD</b>, <b>Muse</b> et <b>Photoshop</b> me permettent de concevoir des supports de cours 
+                        visuellement attractifs et pédagogiquement efficaces. Enfin, ma maîtrise des outils bureautiques et collaboratifs
+                         (<b>Word</b>, <b>Excel</b>, <b>PowerPoint</b>, <b>Outlook</b>, <b>Google Meet</b>, <b>Zoom</b>, <b>Microsoft Teams</b>) garantit une communication fluide et une collaboration 
+                         efficace dans le cadre de l'enseignement à distance ou en présentiel.
+                    </p>                   
+
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="13">0</span>
+                            <span class="stat-label">Années d'expérience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="1250">0</span>
+                            <span class="stat-label">Élèves accompagnés</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="21">0</span>
+                            <span class="stat-label">Projets pédagogiques</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="Profil.jpg" alt="Photo de profil" class="profile-photo" loading="lazy" decoding="async" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes compétences</h2>
+            <div class="skills-grid">
+                <!-- Mathématiques -->
+                <div class="skill-circle fade-in">
+                    <div class="circular-progress" data-percentage="90">
+                        <svg>
+                            <circle class="background" cx="80" cy="80" r="70"></circle>
+                            <circle class="progress" cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="progress-value">0%</div>
+                    </div>
+                    <h3 class="skill-name">Didactique des mathématiques</h3>
+                    <p class="skill-description">Enseignement les concepts : Analyse, Géométrie, Algèbre, Probabilités et statistiques et logique.</p>
+                </div>
+
+                <!-- Pédagogie différenciée -->
+                <div class="skill-circle fade-in">
+                    <div class="circular-progress" data-percentage="86">
+                        <svg>
+                            <circle class="background" cx="80" cy="80" r="70"></circle>
+                            <circle class="progress" cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="progress-value">0%</div>
+                    </div>
+                    <h3 class="skill-name">Pédagogie différenciée</h3>
+                    <p class="skill-description">Adaptation des méthodes d'enseignement innovantes aux besoins spécifiques de chaque élève.</p>
+                </div>
+
+                <!-- Logiciels d’enseignement assisté par ordinateur -->
+                <div class="skill-circle fade-in">
+                    <div class="circular-progress" data-percentage="90">
+                        <svg>
+                            <circle class="background" cx="80" cy="80" r="70"></circle>
+                            <circle class="progress" cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="progress-value">0%</div>
+                    </div>
+                    <h3 class="skill-name">Logiciels d’enseignement assisté par ordinateur</h3>
+                    <p class="skill-description">GeoGebra, Cabri 2D & 3D, MathType, LaTeX et Matlab.</p>
+                </div>
+
+                <!-- Logiciels de conception pédagogique -->
+                <div class="skill-circle fade-in">
+                    <div class="circular-progress" data-percentage="90">
+                        <svg>
+                            <circle class="background" cx="80" cy="80" r="70"></circle>
+                            <circle class="progress" cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="progress-value">0%</div>
+                    </div>
+                    <h3 class="skill-name">Logiciels de conception pédagogique</h3>
+                    <p class="skill-description">Articulate 360 – Rise, Microsoft Sway, Camtasia et Moodle.</p>
+                </div>
+
+                <!-- Langages de programmation -->
+                <div class="skill-circle fade-in">
+                    <div class="circular-progress" data-percentage="92">
+                        <svg>
+                            <circle class="background" cx="80" cy="80" r="70"></circle>
+                            <circle class="progress" cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="progress-value">0%</div>
+                    </div>
+                    <h3 class="skill-name">Langages de programmation</h3>
+                    <p class="skill-description">HTML, C, C++ et Java.</p>
+                </div>
+
+                <!-- Logiciels d’édition et de conception graphique -->
+                <div class="skill-circle fade-in">
+                    <div class="circular-progress" data-percentage="88">
+                        <svg>
+                            <circle class="background" cx="80" cy="80" r="70"></circle>
+                            <circle class="progress" cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="progress-value">0%</div>
+                    </div>
+                    <h3 class="skill-name">Logiciels d’édition et de conception graphique</h3>
+                    <p class="skill-description">Adobe InDesign, Illustrator, XD, Muse et Photoshop.</p>
+                </div>
+
+                <!-- Logiciels bureautiques et collaboratifs -->
+                <div class="skill-circle fade-in">
+                    <div class="circular-progress" data-percentage="91">
+                        <svg>
+                            <circle class="background" cx="80" cy="80" r="70"></circle>
+                            <circle class="progress" cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="progress-value">0%</div>
+                    </div>
+                    <h3 class="skill-name">Logiciels bureautiques et collaboratifs</h3>
+                    <p class="skill-description">Microsoft Word, Excel, PowerPoint, Outlook, Teams, Google Meet et Zoom.</p>
+                </div>
+
+                <!-- Langues de communication -->
+                <div class="skill-circle fade-in">
+                    <div class="circular-progress" data-percentage="84">
+                        <svg>
+                            <circle class="background" cx="80" cy="80" r="70"></circle>
+                            <circle class="progress" cx="80" cy="80" r="70"></circle>
+                        </svg>
+                        <div class="progress-value">0%</div>
+                    </div>
+                    <h3 class="skill-name">Langues de communication</h3>
+                    <p class="skill-description">Arabe, Français et Anglais.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes projets pédagogiques</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="1">
+                    <div class="project-image" data-project-trigger>
+                        <div class="image-placeholder">
+                         <img src="Projets/Cover_Bous_1_mini.png" alt="Couverture du projet" class="profile-photo" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-icon">👁️</span>
+                            <span class="view-text">Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>La boussole des M@ths</h3>
+                        <p>Description du projet sera chargée dynamiquement...</p>
+                        <button class="project-link" data-project-trigger>En savoir plus</button>
+                    </div>
+                </div>
+                <div class="project-card" data-project="2">
+                    <div class="project-image" data-project-trigger>
+                        <div class="image-placeholder">
+                            <img src="Projets/Cover_Bous_2_mini.png" alt="Couverture du projet" class="profile-photo" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-icon">👁️</span>
+                            <span class="view-text">Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ateliers pratiques</h3>
+                        <p>Organisation d'ateliers pour appliquer les mathématiques à des problèmes concrets.</p>
+                        <button class="project-link" data-project-trigger>En savoir plus</button>
+                    </div>
+                </div>
+                <div class="project-card" data-project="3">
+                    <div class="project-image" data-project-trigger>
+                        <div class="image-placeholder">
+                            <img src="Projets/Cover_Bous_3_mini.png" alt="Couverture du projet" class="profile-photo" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-icon">👁️</span>
+                            <span class="view-text">Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Plateforme en ligne</h3>
+                        <p>Développement d'une plateforme d'apprentissage avec exercices auto-corrigés.</p>
+                        <button class="project-link" data-project-trigger>En savoir plus</button>
+                    </div>
+                </div>
+                <div class="project-card" data-project="4">
+                    <div class="project-image" data-project-trigger>
+                        <div class="image-placeholder">
+                         <img src="Projets/Cover_Bous_1_mini.png" alt="Couverture du projet" class="profile-photo" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-icon">👁️</span>
+                            <span class="view-text">Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>La boussole des M@ths</h3>
+                        <p>Description du projet sera chargée dynamiquement...</p>
+                        <button class="project-link" data-project-trigger>En savoir plus</button>
+                    </div>
+                </div>
+                <div class="project-card" data-project="5">
+                    <div class="project-image" data-project-trigger>
+                        <div class="image-placeholder">
+                            <img src="Projets/Cover_Bous_2_mini.png" alt="Couverture du projet" class="profile-photo" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-icon">👁️</span>
+                            <span class="view-text">Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ateliers pratiques</h3>
+                        <p>Organisation d'ateliers pour appliquer les mathématiques à des problèmes concrets.</p>
+                        <button class="project-link" data-project-trigger>En savoir plus</button>
+                    </div>
+                </div>
+                <div class="project-card" data-project="6">
+                    <div class="project-image" data-project-trigger>
+                        <div class="image-placeholder">
+                            <img src="Projets/Cover_Bous_3_mini.png" alt="Couverture du projet" class="profile-photo" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-icon">👁️</span>
+                            <span class="view-text">Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Plateforme en ligne</h3>
+                        <p>Développement d'une plateforme d'apprentissage avec exercices auto-corrigés.</p>
+                        <button class="project-link" data-project-trigger>En savoir plus</button>
+                    </div>
+                </div>
+                <div class="project-card" data-project="7">
+                    <div class="project-image" data-project-trigger>
+                        <div class="image-placeholder">
+                         <img src="Projets/Cover_Bous_1_mini.png" alt="Couverture du projet" class="profile-photo" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-icon">👁️</span>
+                            <span class="view-text">Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>La boussole des M@ths</h3>
+                        <p>Description du projet sera chargée dynamiquement...</p>
+                        <button class="project-link" data-project-trigger>En savoir plus</button>
+                    </div>
+                </div>
+                <div class="project-card" data-project="8">
+                    <div class="project-image" data-project-trigger>
+                        <div class="image-placeholder">
+                            <img src="Projets/Cover_Bous_2_mini.png" alt="Couverture du projet" class="profile-photo" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-icon">👁️</span>
+                            <span class="view-text">Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ateliers pratiques</h3>
+                        <p>Organisation d'ateliers pour appliquer les mathématiques à des problèmes concrets.</p>
+                        <button class="project-link" data-project-trigger>En savoir plus</button>
+                    </div>
+                </div>
+                <div class="project-card" data-project="9">
+                    <div class="project-image" data-project-trigger>
+                        <div class="image-placeholder">
+                            <img src="Projets/Cover_Bous_3_mini.png" alt="Couverture du projet" class="profile-photo" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="project-overlay">
+                            <span class="view-icon">👁️</span>
+                            <span class="view-text">Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Plateforme en ligne</h3>
+                        <p>Développement d'une plateforme d'apprentissage avec exercices auto-corrigés.</p>
+                        <button class="project-link" data-project-trigger>En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Prenez rendez-vous</h3>
+                    <p>N'hésitez pas à me contacter pour discuter de vos besoins en mathématiques ou pour organiser des séances de tutorat.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span><a href="mailto:aminebellachhab@yahoo.fr">aminebellachhab@yahoo.fr</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span><a href="tel:+212663476755">+212 6 63 47 67 55</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Marrakech, Maroc</span>
+                        </div>
+                    </div>
+                    <div class="tutor-widget">
+                        <div id="my_tutor_widget" data-tutor="amine-bellachhab" data-domain="https://www.voscours.fr" data-cdn="https://d1reana485161v.cloudfront.net/" data-css-version="2274">
+                           <a href="https://www.voscours.fr" target="_blank" rel="noopener">
+                             <img src="https://d1reana485161v.cloudfront.net/i/logo_voscours_v3@2x.png" width="100" height="38" alt="Cours particuliers" />
+                           </a>
+                        </div>
+                        <script>
+                        (function (i, s, o, g, a, m){
+                            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                            a.async = 1;
+                            a.src = g;
+                            m.parentNode.insertBefore(a, m)
+                        }(window, document, 'script', 'https://d1reana485161v.cloudfront.net/widget_jq.min.js?v=2057'));
+                        </script>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="from_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse email</label>
+                        <input type="email" id="email" name="from_email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="#accueil" class="logo">A<span>.</span> BELLACHHAB</a>
+                    <p>Enseignant passionné par la transmission des savoirs mathématiques.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Réseaux sociaux</h4>
+                    <div class="social-links">
+                        <a href="http://www.linkedin.com/in/aminebellachhab" aria-label="LinkedIn">LinkedIn</a>
+                        <!-- Links 
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> AMINE BELLACHHAB | Enseignant de Mathématiques. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modale Projet -->
+    <div id="projectModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="projectModalTitle">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <button class="modal-close" aria-label="Fermer la fenêtre">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                
+                <div class="modal-header">
+                    <div class="modal-icon">
+                        <span id="projectIcon">📚</span>
+                    </div>
+                    <h2 id="projectModalTitle" class="modal-title">Titre du projet</h2>
+                </div>
+                
+                <div class="modal-body">
+                    <div class="modal-image-container">
+                        <div id="projectModalImage" class="modal-image">
+                            <div class="image-placeholder">Image du projet</div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-description">
+                        <h3>Description</h3>
+                        <p id="projectDescription"></p>
+                    </div>
+                    
+                    <div class="modal-details">
+                        <div class="detail-item">
+                            <div class="detail-icon">🎯</div>
+                            <div class="detail-content">
+                                <h4>Objectifs</h4>
+                                <ul id="projectObjectives"></ul>
+                            </div>
+                        </div>
+                        
+
+
+                        <div class="detail-item">
+                            <div class="detail-icon">👩‍🏫</div>
+                            <div class="detail-content">
+                                <h4>Auteurs</h4>
+                                <p id="projectAuthors"></p>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <div class="detail-icon">📚</div>
+                            <div class="detail-content">
+                                <h4>Dans la même collection</h4>
+                                <p id="projectCollection"></p>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <div class="detail-icon">🧭</div>
+                            <div class="detail-content">
+                                <h4>Édition</h4>
+                                <p id="projectEdition"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal-footer">
+                    <button class="btn btn-secondary modal-btn-close">Fermer</button>
+                    <a id="projectLink" href="#" class="btn btn-primary" target="_blank" rel="noopener">
+                        Voir le projet complet
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 8px;">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bouton retour en haut -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Retour en haut de la page">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <!-- Popup de zoom d'image -->
+    <div id="imageZoomOverlay" class="image-zoom-overlay">
+        <div class="image-zoom-container">
+            <img id="zoomedImage" src="" alt="Image agrandie">
+            <button class="image-zoom-close" aria-label="Fermer l'image agrandie">×</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
