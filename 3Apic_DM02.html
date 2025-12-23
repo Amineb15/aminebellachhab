@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Visualisation PDF Élève 3Apic S1 avec compteurs de vues et téléchargements">
-    <meta property="og:title" content="Visualisation PDF - Élève 3Apic S1 | Amine Bellachhab">
-    <meta property="og:description" content="Consultez et téléchargez le PDF avec compteurs de statistiques">
+    <meta name="description" content="Visualisation PDF DM02 pour 3Apic S1 avec compteurs de vues et téléchargements">
+    <meta property="og:title" content="Visualisation PDF - DM02 3Apic S1 | Amine Bellachhab">
+    <meta property="og:description" content="Consultez et téléchargez le PDF DM02 avec compteurs de statistiques">
     <meta property="og:type" content="website">
     <title>📘 Visualisation du PDF | Amine Bellachhab</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/visio.css">
-    <!-- Favicon start -->
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
-	<link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+	<!-- Favicon start -->
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+	<link rel="manifest" href="/site.webmanifest">
 	<!-- Favicon end -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    <script>
+      window.pdfConfig = {
+        fileName: '3Apic_DM02.pdf',
+        title: '📘 Visualisation du PDF - DM02 3Apic S1'
+      };
+    </script>
+    </head>
 <body>
-        <!-- stratégie de cache pour les ressources -->
-    <!-- Header commun -->
     <header class="header">
         <div class="container">
             <nav class="nav">
@@ -46,12 +50,10 @@
         </div>
     </header>
 
-    <!-- Section principale de visualisation du PDF -->
     <section class="section" id="visio">
         <div class="container">
             <h2 class="visio-title">📘 Visualisation du PDF</h2>
 
-            <!-- Conteneur PDF avec loader -->
             <div class="pdf-container">
                 <div class="loader" id="loader">
                     <div class="progress-bar">
@@ -61,27 +63,21 @@
                 <iframe id="pdf-viewer" class="pdf-iframe" src="" title="Visualisation PDF"></iframe>
             </div>
 
-            <!-- Section stats et bouton -->
             <div class="stats-section">
                 <div class="counters">
                     <div class="counter" id="view-counter">👁️ Visites : 0</div>
                     <div class="counter" id="download-counter">⬇️ Téléchargements : 0</div>
                 </div>
-                <div class="actions">
-                    <a id="download-btn" class="download-btn">Télécharger le PDF</a>
-                </div>
+                <a id="download-btn" class="download-btn">Télécharger le PDF</a>
             </div>
-            <div class="variant-section">
-                <div class="variant-actions" style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
-                    <a href="3ApicS1-DM01.html" class="download-btn alt-link-btn">Voir DM01</a>
-                    <a href="Exe07.html" class="download-btn alt-link-btn">Correction Exercice7</a>
-                    <a href="3Apic_DM02.html" class="download-btn alt-link-btn">Voir DM02</a>
+			<div class="variant-section">
+                <div class="variant-actions">
+                    <a href="3ApicS1-CorDM01.html" class="download-btn alt-link-btn">Voir Correction DM01</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer commun -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -112,7 +108,6 @@
         </div>
     </footer>
 
-    <!-- Bouton retour en haut -->
     <button id="scrollToTop" class="scroll-to-top" aria-label="Retour en haut de la page">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 19V5M5 12l7-7 7 7"/>
